@@ -1,10 +1,11 @@
 import React from 'react'
 
 //funtional component (rfce)
-function Greet() {
+function Greet(props) {
   return (
     <div>
-        <h1>Good morning</h1>
+        <h1>Good morning {props.name} {props.heroName} </h1>
+        {props.children}
     </div>
   )
 }
