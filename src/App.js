@@ -4,6 +4,7 @@ import UserGreeting from './components/Conditional';
 import Greet from './components/Greet';
 import Message from './components/Message';
 import ParentComponent from './components/ParentComponent';
+import ListRendering from './components/ListRendering';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
        {/* <Message /> */}
        {/* <ClickHandler /> */}
        {/* <ParentComponent /> */}
-       <UserGreeting />
+       {/* <UserGreeting /> */}
+       <ListRendering />
 
     </div>
   );
