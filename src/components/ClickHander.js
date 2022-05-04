@@ -1,16 +1,20 @@
 const ClickHandler = () => {
-    const clickHandler = (event) =>{
-        console.log("Button Clicked")
+    const clickHandler = () =>{
+        // console.log("Button Clicked")
 
         // displaying passed argument
-        alert(event)
+        alert("HELLO")
+    }
+    const passingArguement = (a) =>{
+        
+        alert(a)
     }
     return ( 
         <div>
             <button onClick={clickHandler}>Click</button>
             
             {/* passing arguement in click event */}
-            <button onClick={() =>clickHandler('Hi beautiful')}>Click 5</button>
+            <button onClick={() =>passingArguement('Hi beautiful')}>Click 2</button>
 
         </div>
      );
